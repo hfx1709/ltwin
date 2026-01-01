@@ -1,7 +1,0 @@
-[BUILDINFO]
-BuildArch=amd64
-BuildType=fre
-BuildBranch=rs1_release
-OfficialBuild=TRUE
-MainBuild=FALSE
-Coverage=FALSE
