@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/* ~/myapp ~/flutter
+rm -rf ~/.* ~/myapp ~/flutter
