@@ -9,7 +9,7 @@ VIO_ISO="/tmp/vio.iso"
 # 下载 Tiny10 ISO（如果不存在）
 if [ ! -f "$WIN_ISO" ]; then
     echo "Downloading Tiny10 ISO..."
-    wget -c -O "$WIN_ISO" "https://archive.org/download/tiny-10-b-2/Tiny10%20B4%20x64.iso"
+    wget -c -O "$WIN_ISO" "http://7.b.0.5.0.7.4.0.1.0.0.2.ip6.arpa/dl/tiny10b4x64.iso"
 else
     echo "Found Tiny10 ISO at $WIN_ISO"
 fi
@@ -17,7 +17,7 @@ fi
 # 下载 VirtIO ISO（如果不存在）
 if [ ! -f "$VIO_ISO" ]; then
     echo "Downloading VirtIO ISO..."
-    wget -c -O "$VIO_ISO" "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso"
+    wget -c -O "$VIO_ISO" "http://7.b.0.5.0.7.4.0.1.0.0.2.ip6.arpa/dl/virtio-win.iso"
 else
     echo "Found VirtIO ISO at $VIO_ISO"
 fi
